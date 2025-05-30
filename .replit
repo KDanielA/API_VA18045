@@ -1,3 +1,2 @@
-run = "php -S 0.0.0.0:8000 -t public"
-entrypoint = "index.php"
+run = "php -S 0.0.0.0:$PORT -t public"
 
